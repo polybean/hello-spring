@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   app:
-    image: hello-spring
+    image: polybean/hello-spring
     environment:
       DB_HOST: db
       DB_PORT: 5432
